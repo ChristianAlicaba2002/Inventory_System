@@ -1,0 +1,427 @@
+body{
+    margin: 0;
+    background-image: url(images/main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#time{
+    position: absolute;
+    font-size: 1.6rem;
+    margin-top: 7.6%;
+    margin-left: 84%;
+    color: black;
+}
+.imagelabel{
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 18.5%;
+    display: none;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px white;
+}
+.span{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 16%;
+}
+.imagessss{
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 96px;
+    outline: none;
+    display: none;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px white;
+}
+.record{
+    font-size: 1.4rem;
+    color: black;
+    position: absolute;
+    display: block;
+    margin-left: -65%;
+}
+.titlsss{
+    margin-top: 0;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 5px 20px rgba(255, 255, 255, 0.993);
+    /* animation-name: glows;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; */
+}
+h1{
+    font-weight: bold;
+    cursor:not-allowed;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 25px;
+    text-align: center;
+    color: #ffbb00;
+    font-size: 2.2rem
+}
+
+/* @keyframes glows {
+    50%{box-shadow: 0px 5px 40px rgb(255, 8, 0)};
+} */
+input[text=file]{
+    color: white;
+    background: white;
+}
+.file{
+    margin-top: 13px;
+    margin-left: -43%;
+    position: absolute;
+    width: 212px;
+}
+.input{
+    position:absolute;
+    border-radius: 15px;
+    width: 500px;
+    height: 320px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 5px 6px rgb(255, 255, 255);
+    margin-left: 31%;
+    margin-top: 7.3%; 
+    padding: 10px 10px;
+}
+
+.input input{
+    color: rgb(0, 0, 0);
+}
+input[type=text]{
+    color: white;
+}
+input[type=text]:focus{
+    border:1px solid  rgb(80, 0, 251);
+}
+
+
+label{
+    color: white;
+    padding-top: -50%;
+    margin-left: -40%;
+    font-size: 1.3rem;
+}
+input:active{
+    background-color: rgba(255, 255, 255, 0.301);
+}
+input:hover{
+    background-color: rgba(200, 202, 202, 0.301);
+}
+input{
+    outline: none;
+    color: white;
+    margin-left: -40%;
+    box-shadow: 0px 3px 5px #000000;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    padding: 15px 15px;
+    margin-top: 5px;
+    background-color: rgba(105, 103, 103, 0.272);
+    /* animation-name: moglow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; */
+}
+/* @keyframes moglow {
+   50%{box-shadow: 0px 3px 6px #000000;}
+} */
+::placeholder{
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.39);
+}
+button{
+    color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background-color: rgb(49, 141, 0);
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+button:hover{
+    color: black;
+    background-color: rgb(86, 241, 3);
+}
+button:active{
+    background-color: rgb(201, 201, 201);
+}
+button:nth-child(2){
+    padding: 10px 19.5px;
+    color: wheat;
+    background-color: rgb(189, 0, 0);
+}
+button:nth-child(2):hover{
+    color: black;
+    background-color: rgb(255, 0, 0);
+}
+button:nth-child(2):active{
+    background-color: rgb(246, 113, 113);
+}
+.button{
+    position: absolute;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    font-size: 1rem;
+    background: rgba(10, 0, 150, 0.757);
+    border: 0;
+    border-radius: 8px;
+    margin-top: 4%;
+    margin-left: 20%;
+    padding: 10px 30px;
+    color: white;
+}
+
+.button:hover{
+    transition: .5s;
+    color: rgb(255, 254, 254);
+    background: rgb(32, 16, 255);
+}
+.button:active{
+    transition: none;
+    background: rgb(89, 255, 18);
+}
+.tablehover{
+    box-shadow: -5px -5px 5px rgb(255, 255, 255) ,  5px 5px 5px rgb(255, 255, 255);
+    margin-left: 10%;
+    border-radius: 15px;
+    width: 500px;
+    margin-top: 28.5%; 
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 37px;
+    padding-right: 43px;
+    gap: 10px;
+    position: abso6e;
+    z-index: -1;
+}
+.Download{
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 31%;
+    margin-left: 77.5%;
+    padding: 8px 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px black;
+    color: black;
+}
+.Download:hover{
+    background-color: rgba(173, 173, 173, 0.278);
+    color: rgb(0, 0, 0);
+}
+.Download:active{
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+.Download1{
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 31%;
+    margin-left: 85.5%;
+    padding: 8px 26px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px black;
+    color: black;
+}
+.Download1:hover{
+    background-color: rgba(173, 173, 173, 0.278);
+    color: rgb(0, 0, 0);
+}
+.Download1:active{
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+.th{
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    color: #ffbb00;
+    border-radius: 5px;
+    padding: 10px 60px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+#template_display{
+    padding-right: 100px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    cursor: not-allowed;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.512);
+}
+#template_display th{
+    
+    padding: 20px 60px;
+}
+#template_display th:nth-child(1){
+    margin-top: 5%;
+    margin-left: -4%;
+    color: rgb(0, 0, 0);
+}
+#template_display th:nth-child(2){
+    display: inline-block;
+    margin-left: -2.5%;
+    margin-top: -1%;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+}
+
+
+#template_display th:nth-child(3){
+    font-size: 1.2rem;
+    text-align: right;
+    color: rgb(3, 0, 203);
+}
+#template_display th:nth-child(4){
+    font-size: 1.2rem;
+    color: rgb(0, 92, 50);
+    text-align: right;
+}
+#template_display th:nth-child(5){
+    font-size: 1.2rem;
+    color: rgb(0, 66, 141);
+    text-align: right;
+}
+/* #template_display th:nth-child(6){
+    margin-left: 0.5%;
+    color: rgb(0, 0, 0);    
+    position: absolute;
+
+} */
+
+
+
+
+/* p{
+    font-size: 1.3rem;
+    text-align: center;
+    width: 100%;
+    padding: 20px ;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0;
+    position: fixed;
+    margin-top: 90vh;
+} */
+.button1{
+    display: none;
+    position: absolute;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    font-size: 1rem;
+    background: rgba(10, 0, 150, 0.757);
+    border: 0;
+    border-radius: 8px;
+    margin-top: 4%;
+    margin-left: 20%;
+    padding: 10px 30px;
+    color: rgb(255, 255, 255);
+}
+.button1:hover{
+    transition: .5s;
+    color: rgb(255, 255, 255);
+    background: rgb(26, 9, 255);
+}
+.button1:active{
+    transition: none;
+    background: rgb(75, 250, 0);
+}
+
+img {
+    width: 100px;
+    height: 80px;
+}
+/* img{
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    margin-left: 30%;
+    margin-top: 36.5%;
+    z-index: 5;
+} */
+/* .laptop{
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    margin-left: 30%;
+    margin-top: 43.6%;
+    z-index: 5;
+}
+.Desktop{
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    margin-left: 30%;
+    margin-top: 52.2%;
+    z-index: 5;
+}
+.washing{
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    margin-left: 30%;
+    margin-top: 60.5%;
+    z-index: 5;
+}
+.Aircon{
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    margin-left: 30%;
+    margin-top: 68.7%;
+    z-index: 5;
+} */
+
+/* @media(max-width:639px){
+    .input{
+        margin-left: 1%;
+        background: whitesmoke;
+        margin-top: 20%;
+    }
+    
+}
+@media(max-width:375px){
+    .input{
+        margin-left: 1%;
+        background: whitesmoke;
+        margin-top: 40%;
+    }
+    .tablehover{
+        justify-content: center;
+        margin-top: 120%;
+       margin-left: -20%;
+       box-sizing: border-box;
+    }
+    
+}
+@media(max-width: 855px){
+    h1{
+        margin-left: -50px;
+    }
+    .input{
+        margin-top: 15%;
+        margin-left: 13%;
+       
+    }
+    .tablehover{
+        margin-top: 53%;
+        margin-left: 13%;
+    }
+    p{
+        font-size: 15px;
+        margin-top: 85%;
+    }
+    
+} */

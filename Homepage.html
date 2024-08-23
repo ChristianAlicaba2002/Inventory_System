@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jun2 Market</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        background-image: url(images/homepage.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        /* animation-name: change;
+        animation-duration: 5s;
+        animation-iteration-count: infinite; */
+    }
+    /*@keyframes change {
+        30%{background-image: url(images/Ferrari-LaFerrari.jpg)}
+    }*/
+    
+    .homepage{
+        padding: 20px 50px;
+        margin-left: 29.5%;
+        margin-top: 13.5%;
+        width: 500px;
+        height: 300px;
+        border-radius: 30px;
+        background-color:rgba(255, 255, 255, 0.252);
+        text-align: center;
+        box-shadow: 0px 5px 7px rgb(0, 0, 0), -5px -5px 15px rgb(0, 0, 0);
+        /*animation-name: colors;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;*/
+    }
+    @keyframes colors {
+        60%{ box-shadow: 0px 5px 15px green, -5px -5px 15px  blue;}
+    }
+    h1{
+        font-family: Arial, sans-serif;
+        font-size: 4rem;
+    }
+    .button1{
+        margin-left: -10%;
+        position: absolute;
+        font-weight: bold;
+        font-family: sans-serif;
+        border: 2px solid  rgb(146, 255, 4);
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        border-radius: 20px;
+        padding: 15px 35px;
+        font-size: 15px;
+        background-color: rgba(0, 255, 0, 0.256);
+    }
+    .button1:hover{
+        font-weight: bold;
+        border: 0;
+        transition: .3s;
+        color: rgb(0, 0, 0);
+        background-color: rgb(146, 255, 4);
+    }
+    .button2{
+        margin-left: 2%;
+        position: absolute;
+        font-weight: bold;
+        font-family: sans-serif;
+        border: 2px solid rgba(12, 0, 139, 0.893);
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        border-radius: 20px;
+        padding: 15px 44px;
+        font-size: 15px;
+        background-color: rgba(12, 0, 139, 0.425);
+    }
+    a{
+       text-decoration: none;
+    }
+    .button1:hover{
+        transform: scale(108%);
+        font-weight: bold;
+        border: 0;
+        transition: .3s;
+        color: rgb(0, 0, 0);
+        background-color: rgb(146, 255, 4);
+    }
+    .button2:hover{
+        transform: scale(108%);
+        font-weight: bold;
+        border: 0;
+        transition: .4s;
+        color: rgb(0, 0, 0);
+        background-color: rgb(87, 71, 255);
+    }
+    span{
+        color: rgb(255, 0, 38);
+        animation-name: span1;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes span1 {
+        60%{color: blue};
+    }
+    span:nth-child(2){
+        color: blue;
+        animation-name: span2;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes span2 {
+        60%{color:  red};
+    }
+    
+</style>
+<body>
+    <div class="homepage">
+        <h1>Welcome to <span>Jun2</span> <span>Market</span></h1><br>
+        <button class="button1" id="started" type="button">Get Started</button>
+        <!-- <button class="button2" id="about" type="button">About Us</button> -->
+        <a class="button2" href="About.html" rel="">About us</a>
+        <!-- <button id="logout" class="button3" type="button">Log out</button> -->
+
+    <script>
+         
+        const button = document.getElementById("started");
+        button.addEventListener("click",() => {
+            window.location.assign("InventoryProduct.html")
+        })
+    
+        
+             
+
+    </script>
+</body>
+</html>

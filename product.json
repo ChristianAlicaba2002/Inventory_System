@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name":  "Iphone 90 pro-max",
+        "price": 50,
+        "image": "images/iPhone-15-Ultra.jpg"
+    },
+    {
+        "id": 2,
+        "name":  "Laptop",
+        "price": 150,
+        "image": "images/Laptop.jpg"
+    },
+    {
+        "id": 3,
+        "name":  "Computer Setup",
+        "price": 230,
+        "image": "images/Desktop-Computer-Transparent.jpg"
+    },
+    {
+        "id": 4,
+        "name":  "Washing Machine",
+        "price": 230,
+        "image": "images/washing.jpg"
+    },
+    {
+        "id": 5,
+        "name":  "Aircon",
+        "price": 890,
+        "image": "images/Aircon.jpg"
+    }
+]

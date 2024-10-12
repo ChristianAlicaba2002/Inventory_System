@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jun2 Market</title>
+  <link rel="stylesheet" href="InventoryProduct.css">
+  <script src="xlsx.full.min.js"></script>
+</head>
+
+<body>
+  <div class="titlsss">
+    <h1>Jun2 Market</h1>
+  </div>
+  <label id="time" for=""></label>
+    
+    <div class="input">
+        <label id="record" class="record">All Products: </label>
+        <label class="label" for="">Product Name</label><br>
+        <input type="text"  name="" id="name" placeholder="Enter the Product Name" title="Input here" required><br>
+        <label class="label" for="">Quantity</label><br>
+        <input type="text"  name="" id="quantity" placeholder="Enter the Quantity" title="Input here" required><br>
+        <label class="label" for="">Price</label><br>
+        <input type="text"  name="" id="price" placeholder="Enter the Price" title="Input here" required><br>
+        <input type="file" id="images" class="file" name="file">
+        <img id="imagessss" class="imagessss" src="" alt="" srcset="">
+
+        <img class="imagelabel" src="" id="subimage" alt="">
+        <span class="span" id="imagelabel" style="color: white;"></span>
+  
+
+        <button title="Click me"  class="button" id="submit">Submit</button>
+        <button title="Click me"  class="button1" id="update" onclick="update()">Updated</button>
+      
+    </div>
+    <!-- <div id="message" class="message">
+      <p> <span>Warning</span> <br> Name , Quantatiy and Price can only change, but the picture not allowed to change because it's permanent</p>
+      <button id="ok" class="ok" type="button">Ok</button>
+    </div> -->
+  
+        <button id="downloadButton" class="Download" accept=".xlsx"  type="button">Download</button>
+        <button id="ImportButton" class="Download1" type="button">Import</button>             
+     
+      <table class="tablehover">   
+        <input type="file" id="ImportFile" accept=".xlsx" style="display: none;"></input>
+          <tr>
+            <th class="th" scope="col">Product Code</th>
+            <!-- <th class="th" scope="col">Images</th> -->
+            <th class="th" scope="col">Product Name</th>
+            <th class="th" scope="col">Quantity</th>
+            <th class="th" scope="col">Price</th>
+            <th id="total" class="th" scope="col">Total</th>
+            <th class="th" scope="col">Action</th>
+                  
+          </tr>
+        <tbody id = "template_display">
+          <img id="addimage" src="images" alt="" srcset="">
+        </tbody>
+      
+      </table>
+
+      <script src="InventoryProduct.js"></script>
+</body>
+</html>
